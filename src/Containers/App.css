@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #e5e2e3;
+}
+
+.Header__Section {
+  overflow: hidden;
+  padding: 0px 10px;
+ 
+}
+
+.Header__Section a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.Header__Section a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header-right a {
+  background-color: #ffae41;
+  color: #000;
+  padding: 11px 10px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 16px;
+}
+/* Style the active/current link*/
+.header-right a.active {
+  background-color: #fff;
+  color: #000;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+  line-height: 30px;
+}
+
+.PojectDesc {
+  line-height: 33px;
+  margin-left:15px;
+  color: #0a4ea9;
+    font-weight: 500;
+}
+
+.centerTxt {
+  line-height: 33px;
+  margin-left: 20%;
+  color: #ffae41;
+  font-weight: 500;
+  font-size:11px;
+}
+
+.langSelect {
+  padding: 10px;
+}
+
+.pulseLogo {
+  height: 26px;
+}
+
+.runningProd {
+  background-color: #00d600;
+  text-align: center;
+  font-weight: 700;
+  padding: 5px;
+}
+.Dropdown_row {
+  position: relative;
+}
+.Dropdown_row img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.Dropdown_row img.home {
+  position: absolute;
+  top:11px;
+  left:5px;
+ 
+}
+.Dropdown_row img.back {
+  position: absolute;
+  top:11px;
+  left:45px;
+  
+}
+.Dropdown_row .firstGroup {
+  margin-left: 6%;
+}
+
+.Dropdown_row .selectGroup div.Pulse_form-group .picky {
+  width: 342px;
+  margin: 0 8px;
+}
+
+/* .Dropdown_row button {
+  width: 30px;
+  height: 20px;
+} */
+
+.Dropdown_row > div {
+  display: inline-block;
+  width: auto;
+}
+
+.Dropdown_row .selectGroup div {
+  display: inline-block;
+  width: auto;
+}
+.Dropdown_row .selectGroup  {
+  margin-left: 6%;
+  border:1px solid #ccc;
+  padding:2px;
+  width: 93%;
+}
+
+.Pulse_form-group label {
+  font-weight: 500;
+}
+
+.Pulse_form-group * {
+  display: inline-block;
+  width: auto;
+}
+
+.autoBtn {
+  background-color: #ffae41;
+  color: #000;
+  padding: 5px 25px;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  border: 0px;
+}
+
+.descriptor_row {
+  display: flex;
+}
+.descriptor_form-group:first-child {
+  width: 17%;
+  margin: 5px;
+}
+
+.descriptor_form-group {
+  width: 20%;
+  margin: 5px;
+}
+
+.descriptor_form-group input {
+    width: 60%;
+    height: 33px;
+    text-align: center;
+    margin: 0px 5px;
+    font-weight: 500;
+}
+
+.custom_table {
+  border-collapse: collapse;
+  width: 100%;
+  
+}
+
+.custom_table thead tr.mainHead {
+  height: 50px;
+  background: #fbfcb6;
+  border: 1px solid #000;
+  border-bottom: 0px;
+
+}
+
+.custom_table thead tr.subHead {
+  height: 15px;
+  font-size: 13px;
+  font-weight: 300;
+  background: #fbfcb6;
+  border: 1px solid #000;
+  border-top: 0px;
+
+}
+
+.custom_table thead tr.subHead th {
+  font-weight: 400;
+}
+
+.custom_table tbody tr{
+  text-align: center;
+}
+
+.custom_table tbody tr td{
+  padding:10px 0px;
+}
+
+.custom_table tbody {
+  border: 1px solid #000;
+}
+.table-responsive {
+  margin: 5px;
+}
+
+.idle {
+  font-weight: 500;
+  text-align: left;
+}
+
+
+.descriptor_form-group label {
+  font-weight: 500;
+}
+.shiftHeadBg span, .shiftHead span {
+  background: #b6d7f3;
+  padding: 10px 05px 15px 05px;
+  display: inline-block;
+  width: 87%;
+}
+
+.subHead .shiftHeadBg span, .subHead .shiftHead span {
+  background: #b6d7f3;
+  padding: 05px 05px 0px 05px;
+  display: inline-block;
+  width: 87%;
+}
+
+.shiftHead span, .subHead .shiftHead span {
+  background: #e2e2e2;
+}
+
+.greyCell {
+  background: #acaaa8;
+  padding: 3px 20px;
+  border: 1px solid #000;
+}
+.notadded {
+  color: #999;
+  text-align: left;
+}
+.added {
+  color: #999;
+  
+}
